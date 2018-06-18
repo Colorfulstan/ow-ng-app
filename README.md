@@ -1,27 +1,13 @@
-# OwNgApp
+# Project Files for "Overwolf, Angular an (CL)I
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
+A Series of Articles on how to set up an Overwolf App with Angular-CLI
 
-## Development server
+[Part 1 - Getting Started](https://medium.com/@jonas.krispin/overwolf-angular-and-i-part-1-1466a93d40b5)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Running the app 
+1) `npm install`
+2) `$> ng build --watch`
+3) load `./dist/ow-ng-app` as unpacked Extension within Overwolf Dev-Tools
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Note
+`$> ng serve` will not be used
